@@ -29,6 +29,7 @@ function App() {
             id="firstName"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
+            required
           />
         </div>
 
@@ -39,11 +40,13 @@ function App() {
             id="lastName"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            required
           />
         </div>
 
         <button type="submit">Submit</button>
       </form>
+
 
       {error && <p className="error">{error}</p>}
 
