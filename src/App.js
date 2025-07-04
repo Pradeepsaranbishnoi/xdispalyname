@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Enter Your Name</h2>
+      <h2>Full Name Display</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="firstName">First Name:</label><br />
